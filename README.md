@@ -1,6 +1,6 @@
 # EcoTwin K-12: Digital Twin SDG 13 Hackathon Prototype
 
-A fully functional software prototype that simulates IoT hardware, stores data, visualizes it in real-time, and integrates an AI tutor to teach K-12 students about climate action (SDG 13).
+software prototype that simulates IoT hardware, stores data, visualizes it in real-time, and integrates an AI tutor to teach students about climate action (SDG 13).
 
 ## Architecture
 
@@ -38,9 +38,3 @@ npm install
 npm run dev
 ```
 *Open the provided local URL (usually `http://localhost:5173`) in your browser to view the Digital Twin dashboard.*
-
-## Features Implemented
-- **Premium Design**: Dark mode glassmorphism UI with vibrant colors (blue, green, amber, red).
-- **Live Telemetry**: Real-time line charts using Recharts rendering live data from the backend.
-- **AI Tutor Engine**: Backend mock for an AI API that analyzes data trends and generates K-12 friendly insights.
-- **Micro-Carbon Credits**: A gamified counter that increments when energy usage is kept low.
