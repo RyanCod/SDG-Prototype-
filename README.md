@@ -15,7 +15,7 @@ You will need three terminal windows to run the full stack simultaneously.
 ### 1. Start the Backend
 
 ```bash
-cd "c:\Users\ryank\OneDrive\Desktop\SDG Comp\backend"
+cd "yourfilelocation\backend"
 pip install -r requirements.txt
 python main.py
 ```
@@ -24,7 +24,7 @@ python main.py
 ### 2. Start the Hardware Simulator
 
 ```bash
-cd "c:\Users\ryank\OneDrive\Desktop\SDG Comp\simulator"
+cd "yourfilelocation\simulator"
 pip install -r requirements.txt
 python simulator.py
 ```
@@ -33,7 +33,7 @@ python simulator.py
 ### 3. Start the Frontend Dashboard
 
 ```bash
-cd "c:\Users\ryank\OneDrive\Desktop\SDG Comp\frontend"
+cd "yourfilelocation\frontend"
 npm install
 npm run dev
 ```
