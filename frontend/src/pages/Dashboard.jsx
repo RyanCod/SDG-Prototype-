@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { Zap, Thermometer, Droplets, Bot, Activity } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://sdg-prototype.onrender.com/api';
 
 function Dashboard({ theme }) {
   const [data, setData] = useState([]);

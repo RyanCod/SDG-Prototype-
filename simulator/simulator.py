@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 
 # The URL of the backend API
-API_URL = "http://localhost:8000/api/sensor-data"
+API_URL = "https://sdg-prototype.onrender.com/api/sensor-data"
 
 def generate_sensor_data():
     """Generates realistic-looking fluctuating data for a school's trial wing."""
